@@ -12,4 +12,10 @@ public class Patient {
 		this.medicalHistory = medicalHistory;
 	}
 	
+	//getters setters
+	public int getID() { return id; }
+	public String getName() { return name; }
+	public String getMedicalHistory() {return medicalHistory;}
+	
 }
+
